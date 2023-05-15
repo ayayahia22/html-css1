@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(191, 186, 186);
+}
+
+.container {
+    margin: 40px 16px;
+    background-color: rgb(98, 94, 94);
+    display: flex;
+    border-bottom: 3px solid white;
+}
+
+.logo{
+   
+    display: flex;
+    margin: 11px 94px;
+    background-color: #edc13e;
+    padding: 7px 57px;
+    width: 20%;
+    align-items: center;
+    margin-left: 32px;
+}
+
+
+header .container .nav .active {
+    color: #edc13e;
+}
+
+header .container .nav {
+    display: inline;
+}
+
+header .container .nav ul{
+    margin-left: -91px;
+}
+header .container .nav ul li {
+    color: white;
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left:14px;
+    line-height: 1.6;
+    list-style: none;
+}
+.icon{
+    color: #edc13e;
+    margin: 11px 216px;
+    position: relative;
+    left: 159px;
+    top: 2px;
+}
+
+.icon i {
+    margin-left: 20px;
+    margin-top: 10px;
+}
